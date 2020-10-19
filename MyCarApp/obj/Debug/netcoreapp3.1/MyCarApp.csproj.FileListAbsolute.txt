@@ -1,0 +1,13 @@
+C:\Users\DCV\Desktop\Coding\04_Vertiefung_CSharp\AufgabenKonsole\MyCarApp\MyCarApp\bin\Debug\netcoreapp3.1\MyCarApp.exe
+C:\Users\DCV\Desktop\Coding\04_Vertiefung_CSharp\AufgabenKonsole\MyCarApp\MyCarApp\bin\Debug\netcoreapp3.1\MyCarApp.deps.json
+C:\Users\DCV\Desktop\Coding\04_Vertiefung_CSharp\AufgabenKonsole\MyCarApp\MyCarApp\bin\Debug\netcoreapp3.1\MyCarApp.runtimeconfig.json
+C:\Users\DCV\Desktop\Coding\04_Vertiefung_CSharp\AufgabenKonsole\MyCarApp\MyCarApp\bin\Debug\netcoreapp3.1\MyCarApp.runtimeconfig.dev.json
+C:\Users\DCV\Desktop\Coding\04_Vertiefung_CSharp\AufgabenKonsole\MyCarApp\MyCarApp\bin\Debug\netcoreapp3.1\MyCarApp.dll
+C:\Users\DCV\Desktop\Coding\04_Vertiefung_CSharp\AufgabenKonsole\MyCarApp\MyCarApp\bin\Debug\netcoreapp3.1\MyCarApp.pdb
+C:\Users\DCV\Desktop\Coding\04_Vertiefung_CSharp\AufgabenKonsole\MyCarApp\MyCarApp\obj\Debug\netcoreapp3.1\MyCarApp.csprojAssemblyReference.cache
+C:\Users\DCV\Desktop\Coding\04_Vertiefung_CSharp\AufgabenKonsole\MyCarApp\MyCarApp\obj\Debug\netcoreapp3.1\MyCarApp.AssemblyInfoInputs.cache
+C:\Users\DCV\Desktop\Coding\04_Vertiefung_CSharp\AufgabenKonsole\MyCarApp\MyCarApp\obj\Debug\netcoreapp3.1\MyCarApp.AssemblyInfo.cs
+C:\Users\DCV\Desktop\Coding\04_Vertiefung_CSharp\AufgabenKonsole\MyCarApp\MyCarApp\obj\Debug\netcoreapp3.1\MyCarApp.csproj.CoreCompileInputs.cache
+C:\Users\DCV\Desktop\Coding\04_Vertiefung_CSharp\AufgabenKonsole\MyCarApp\MyCarApp\obj\Debug\netcoreapp3.1\MyCarApp.dll
+C:\Users\DCV\Desktop\Coding\04_Vertiefung_CSharp\AufgabenKonsole\MyCarApp\MyCarApp\obj\Debug\netcoreapp3.1\MyCarApp.pdb
+C:\Users\DCV\Desktop\Coding\04_Vertiefung_CSharp\AufgabenKonsole\MyCarApp\MyCarApp\obj\Debug\netcoreapp3.1\MyCarApp.genruntimeconfig.cache
