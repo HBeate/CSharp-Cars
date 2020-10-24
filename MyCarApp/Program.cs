@@ -1,6 +1,7 @@
 ﻿using MyCarApp.models;
 using System;
 using System.Collections.Generic;
+using System.Runtime.CompilerServices;
 
 public enum CarType { SUV, Kombi, Kleinwagen, Cabrio};
 
@@ -10,11 +11,13 @@ namespace MyCarApp
     {
         static void Main(string[] args)
         {
+            List<Car> cars = new List<Car>();
+            var isActive = true;
+            while (isActive)
+            {
             {
 
 
-
-                List<Car> cars = new List<Car>();
                 Car car = new Car();
 
                 Console.WriteLine("Wählen Sie ein Auto");
@@ -41,7 +44,6 @@ namespace MyCarApp
                 foreach (var value in Enum.GetValues(typeof(CarType)))
                     Console.WriteLine(value);
 
-
                 Console.Write("Wähle ein Autotyp: ");
                 string TypeInput = Console.ReadLine();
 
@@ -63,7 +65,6 @@ namespace MyCarApp
                         Console.WriteLine("Bitte überprüfe deine Eingabe");
                         break;
                 }
-                //           Console.WriteLine("Du hast den Typ " + TypeInput.ToUpper() + " gewählt");
                 car.CarType = TypeInput;
 
                 Console.Write("Hersteller: ");
@@ -79,8 +80,6 @@ namespace MyCarApp
                 MyUserInput = Console.ReadLine();
                 car.Color = MyUserInput;
 
-
-
                 Console.WriteLine("\nAutotyp: " + car.CarType + "\nHersteller: " + car.Manufacturer + "\nModell: " + car.Name + "\nBaujahr: " + car.BuildYear + "\nFarbe: " + car.Color);
                 Console.WriteLine("Speichern? Y / N");
                 MyUserInput = Console.ReadLine();
@@ -89,12 +88,25 @@ namespace MyCarApp
                 {
                     cars.Add(car);
                     String[] carsAsArray = GetArrayOfAllCars(cars);
-                    Console.WriteLine(carsAsArray); /// -> for each ....
-
+                        var counter = 0;
+                        foreach (var element in carsAsArray)
+                        {
+                            Console.WriteLine(carsAsArray[counter]); /// -> for each ....
+                            counter++;
+                        }
                 }
                 else
                 {
                     Console.WriteLine("Das Auto wurde nicht gespeichert");
+                }
+                
+                Console.WriteLine("Neues Auto hinzufügen? Y / N");
+                MyUserInput = Console.ReadLine();
+
+                if(MyUserInput.ToLower() != "y")
+                {
+                        isActive = false;
+                }
                 }
             }
         }
